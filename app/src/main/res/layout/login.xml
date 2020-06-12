@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303030"
+    android:orientation="vertical"
+
+    android:theme="@style/Widget.AppCompat.EditText"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login!"
+        android:textColor="#ffffff"
+        android:textSize="100dp"
+        android:textStyle="bold" />
+
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintHorizontal_bias="0.498"-->
+    <!--        app:layout_constraintLeft_toLeftOf="parent"-->
+    <!--        app:layout_constraintRight_toRightOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent"-->
+    <!--        app:layout_constraintVertical_bias="0.067"-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="User name:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/login_userName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:hint="Your username"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Pass word:"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:width="300dp"
+        android:background="#ffffff"
+        android:hint="Your username"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="195dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/txt_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="20dp"
+        android:text="Register?"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textStyle="" />
+
+
+</LinearLayout>
